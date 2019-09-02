@@ -23,7 +23,7 @@ function fixed() {
     var n = 0;
     do {
         n++;
-        var i = Math.random() * 1000000 + 1;
+        var i = Math.random() * 100000 + 1;
         i = Math.floor(i);
         var text = "Pass number " + n + " is equal to " + i;
         outputs.push(text);
