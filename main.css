@@ -5,6 +5,6 @@ h1{
 .btn-success:hover{
     color: yellow;
 }
-.notice{
+.notice, #notice-header{
     color: red;
 }
