@@ -1,6 +1,6 @@
 // Please note running this script without changing the Infinity value will cause the browser to slow to a crawl and or stop all function pending a manual script termination.
 function infinity() {
-    document.getElementById("output-header").innerHTML="Simulator Output";
+    $("#output-header").text("Simulator Output");
     var outputs = new Array();
     var n = 0;
     do {
@@ -13,7 +13,7 @@ function infinity() {
     while (i != 2);
 
     for (n = 0; n < outputs.length; n++) {
-        document.write(outputs[n] + "</br>");
+        $("#output-area").append(outputs[n] + "</br>");
     }
 }
 
@@ -31,6 +31,6 @@ function fixed() {
     while (i != 2);
 
     for (n = 0; n < outputs.length; n++) {
-        document.write(outputs[n] + "</br>");
+        $("#output-area").append(outputs[n] + "</br>");
     }
 }
