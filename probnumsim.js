@@ -18,7 +18,7 @@ function infinity() {
 }
 
 function fixed() {
-    document.getElementById("output-header").innerHTML="Simulator Output";
+    $("#output-header").text("Simulator Output");
     var outputs = new Array();
     var n = 0;
     do {
