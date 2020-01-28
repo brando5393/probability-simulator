@@ -1,10 +1,28 @@
+body{
+    background-color: black !important;
+}
+
 h1{
     text-decoration: underline;
 }
 
 .btn-success:hover{
-    color: yellow;
+    color: royalblue !important;
 }
+
+.container{
+    background-color: white !important;
+}
+
 .notice, #notice-header{
     color: red;
+}
+
+#output-area{
+    text-align: center;
+    color: black;
+}
+
+#output-header{
+    text-decoration: underline;
 }
